@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: #010313;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    margin: auto;
+    background: #010313;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin: 7px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+
+.menu button{
+border: 1px solid blue;
+margin: 10px;
+padding: 10px;
+width: 90px;
+background: none;
+color: white;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.center .sub_title{
+    color: #CCCCCC;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.center .btns{
+    margin-top: 20px;
+}
+
+.center .btns input{
+    height: 40px;
+    width: 304px;
+    border-radius: 1px;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.center .btns button{
+    background-color: #2945FF;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 1px;
+    border: none;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.center .quest{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.center .q2{
+    color: #CCCCCC;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+section{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.box1, .box2, .box3{
+    width: 26%;
+    background-color:none;
+    border:1px solid #E5E5E5;
+    color: #FFF;
+    float: left;
+    margin: 1%;
+    height:15em;
+    border-radius: 3px;
+    margin-top: 700px;
+    box-shadow: #E5E5E5;
+    margin-left: 60px;
+    text-align: center;
+    padding: 40px;
+    font-weight: 300;
+}
+
+.box1 p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.box2 p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.box3 p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.sec_2{
+    background-color: #5A3FC41A;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.qq{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.secure, .pic, .smiley{
+    width: 26%;
+    background-color:none;
+    color: #FFF;
+    float: left;
+    margin: 1%;
+    height:15em;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: #E5E5E5;
+    margin-left: 70px;
+    text-align: center;
+    padding: 40px;
+    font-weight: 300;
+}
+
+.secure h4, .pic h4, .smiley h4{
+    font-weight: 400;
+    margin: 1em;
+}
+
+.secure p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+    color: #CCCCCC;
+}
+
+.pic p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+    color: #CCCCCC;
+}
+
+.smiley p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 25px;
+    color: #CCCCCC;
+}
+
+.sec_2 button{
+    background-color: #2945FF;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 1px;
+    border: none;
+    margin: 1em 630px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.container{
+    background: #010313;
+    height: 300px;
+    /* text-align: center; */
+}
+
+.container h4{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 2.9em;
+}
+
+.container .p1{
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: -80px;
+}
+
+.image{
+    margin-top: 100px;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 1470px;
+    left: 400px;
+}
+.text {
+    color:#CCCCCC;
+    margin-left: 45rem;
+    margin-top: 5rem;
+}
+
+.text p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.text h2{
+    font-size: 16px;
+}
+
+.text h5{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #010313;
+    height: 300px;
+    color: #CCCCCC;
+}
+
+footer h4{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 3em;
+}
+
+footer p{
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: -80px;
+}
+
+footer .btns_2{
+    margin-top: 20px;
+    margin-left: 30rem;
+}
+
+footer .btns_2 input{
+    height: 40px;
+    width: 304px;
+    border-radius: 1px;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer .btns_2 button{
+    background-color: #2945FF;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 1px;
+    border: none;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer nav{
+    /* position: fixed; */
+    bottom: 0px;
+    margin: auto;
+    background: #010313;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+footer nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer .menu .logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+footer .menu ul{
+    display: inline-flex;
+}
+
+footer.menu ul li{
+    list-style-type: none;
+    margin: 7px;
+}
+
+footer .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+
+footer .menu button{
+border: 1px solid blue;
+margin: 10px;
+padding: 10px;
+width: 90px;
+background: none;
+color: white;
+}
